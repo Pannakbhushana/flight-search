@@ -1,10 +1,11 @@
 "use client"
-
+import { redirect } from "next/navigation";
 import { fetchFlights } from "@/features/flightSlice";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { useEffect } from "react";
 
 export default function Home() {
+   redirect("/flights");
     const dispatch = useAppDispatch();
   const { flights, isLoading, error } = useAppSelector(
     (state) => state.flights
