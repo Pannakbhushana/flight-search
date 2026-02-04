@@ -1,10 +1,24 @@
-import Image from "next/image";
+"use client"
+
+import { fetchFlights } from "@/features/flightSlice";
+import { useAppDispatch, useAppSelector } from "@/store/hooks";
+import { useEffect } from "react";
 
 export default function Home() {
+    const dispatch = useAppDispatch();
+  const { flights, isLoading, error } = useAppSelector(
+    (state) => state.flights
+  );
+
+  useEffect(() => {
+    dispatch(fetchFlights());
+  }, [dispatch]);
+
+  console.log("flights---", flights)
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main>
-        <div className="text-red-500 text-2xl font-bold">Helo world</div>
+        <div>Hello</div>
       </main>
     </div>
   );
