@@ -6,7 +6,7 @@ export default function SearchBar() {
   const [tripType, setTripType] = useState<"oneway" | "roundtrip">("oneway");
 
   return (
-    <div className="rounded-lg border bg-gray-100 p-4 md:p-6">
+    <div className="rounded-lg shadow-2xl bg-gray-100/99 p-4 md:p-6">
       <div className="mb-4 flex gap-6 text-sm md:text-base">
         <label className="flex cursor-pointer items-center gap-2">
           <input

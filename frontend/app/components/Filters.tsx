@@ -2,7 +2,7 @@
 
 export default function Filters() {
   return (
-    <div className="w-full rounded-lg border bg-gray-100 p-4 md:w-72 lg:sticky lg:top-4">
+    <div className="w-full rounded-lg shadow-2xl bg-gray-100/99 p-4 md:w-72 lg:sticky lg:top-4">
       <h3 className="mb-4 text-base font-semibold md:text-lg">
         Filters
       </h3>
