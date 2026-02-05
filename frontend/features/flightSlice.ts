@@ -1,34 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { getFlights } from "@/services/flightService";
-
-export interface FlightLeg {
-  from: string;
-  to: string;
-  departureTime: string;
-  arrivalTime: string;
-  airlineCode: string;
-}
-
-export interface FlightResult {
-  id: string;
-  airlineCodes: string[];
-  departureTime: string;
-  totalStops: number;
-  price: number;
-  legs: FlightLeg[];
-}
-
-interface FlightState {
-  flights: FlightResult[];
-  isLoading: boolean;
-  error: string | null;
-}
-
-const initialState: FlightState = {
-  flights: [],
-  isLoading: false,
-  error: null,
-};
+import { FlightResult, FlightState } from "@/types/flight";
 
 export const fetchFlights = createAsyncThunk<
   FlightResult[],
@@ -41,6 +13,12 @@ export const fetchFlights = createAsyncThunk<
     return rejectWithValue("Failed to fetch flights");
   }
 });
+
+ const initialState: FlightState = {
+  flights: [],
+  isLoading: false,
+  error: null,
+};
 
 const flightSlice = createSlice({
   name: "flights",
