@@ -27,12 +27,22 @@ export interface FlightCard {
 
 export interface FlightResult {
   id: string;
+
+  airlineCode: string;
   airlineName: string;
   flightNumber: string;
+
+  fromCode: string;
+  toCode: string;
+  fromCity: string;
+  toCity: string;
+
   departureTime: string;
   arrivalTime: string;
+
   duration: number;
   stops: number;
+
   price: number;
 }
 
