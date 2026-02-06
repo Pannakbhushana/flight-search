@@ -16,7 +16,7 @@ This project consumes a normalized airline-style JSON API, transforms it into a 
 
 ## Features
 
-### 🔍 Search
+### Search
 - Source city
 - Destination city
 - Departure date
@@ -124,7 +124,7 @@ All filtering and sorting logic is centralized here.
 
 ---
 
-## 3️⃣ State Management (Redux Toolkit)
+## State Management (Redux Toolkit)
 
 Two slices are used to separate raw and derived state.
 
