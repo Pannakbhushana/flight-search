@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Flight Search UI",
+  title: "Vimana Sarthi",
   description: "Flight search",
 };
 

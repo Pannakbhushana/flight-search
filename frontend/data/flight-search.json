@@ -3,10 +3,14 @@
   "provider": "CRT",
   "success": true,
   "result": {
-    "journeys": { "J1": { "sector": "DELBLR20260131" } },
+    "journeys": {
+      "J1": {
+        "sector": "DELBLR20260131"
+      }
+    },
     "sectors": {
       "DELBLR20260131": {
-         "DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600": {
+        "DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600": {
           "flUnqiueId": "DEL-AMD-AI-531-1769868900_AMD-BLR-AI-9777-1769880600",
           "flights": [
             {
@@ -17,19 +21,28 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "3", "gate": "" },
+                "terminal": {
+                  "name": "3",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T19:45:00+05:30"
               },
               "arrivalAirport": {
                 "code": "AMD",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T21:30:00+05:30"
               },
               "stops": {
                 "code": "AMD",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T21:30:00+05:30",
                 "layOverTimeInMins": 90
@@ -45,13 +58,19 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "AMD",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:00:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T01:30:00+05:30"
               },
@@ -64,7 +83,10 @@
             "stops": [
               {
                 "code": "AMD",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T21:30:00+05:30",
                 "layOverTimeInMins": 90
@@ -72,7 +94,9 @@
             ],
             "lowestPrice": "13366.54",
             "departureTime": "2026-01-31T19:45:00+05:30",
-            "airline": ["AI"],
+            "airline": [
+              "AI"
+            ],
             "aircraftType": [],
             "airportCode": "DEL",
             "totalStops": 1
@@ -86,13 +110,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -100,13 +134,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -198,19 +242,28 @@
               "airlineCode": "QP",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T18:10:00+05:30"
               },
               "arrivalAirport": {
                 "code": "PNQ",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:20:00+05:30"
               },
               "stops": {
                 "code": "PNQ",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:20:00+05:30",
                 "layOverTimeInMins": 165
@@ -226,13 +279,19 @@
               "airlineCode": "QP",
               "departureAirport": {
                 "code": "PNQ",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:05:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T00:45:00+05:30"
               },
@@ -245,7 +304,10 @@
             "stops": [
               {
                 "code": "PNQ",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:20:00+05:30",
                 "layOverTimeInMins": 165
@@ -253,8 +315,13 @@
             ],
             "lowestPrice": "18234.48",
             "departureTime": "2026-01-31T18:10:00+05:30",
-            "airline": ["QP"],
-            "aircraftType": ["7YL null", "7MA null"],
+            "airline": [
+              "QP"
+            ],
+            "aircraftType": [
+              "7YL null",
+              "7MA null"
+            ],
             "airportCode": "DEL",
             "totalStops": 1
           },
@@ -267,13 +334,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -281,13 +358,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -367,19 +454,28 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "3", "gate": "" },
+                "terminal": {
+                  "name": "3",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T21:00:00+05:30"
               },
               "arrivalAirport": {
                 "code": "MAA",
-                "terminal": { "name": "4", "gate": "" },
+                "terminal": {
+                  "name": "4",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:50:00+05:30"
               },
               "stops": {
                 "code": "MAA",
-                "terminal": { "name": "4", "gate": "" },
+                "terminal": {
+                  "name": "4",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:50:00+05:30",
                 "layOverTimeInMins": 945
@@ -395,13 +491,19 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "MAA",
-                "terminal": { "name": "4", "gate": "" },
+                "terminal": {
+                  "name": "4",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T15:35:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T16:35:00+05:30"
               },
@@ -414,7 +516,10 @@
             "stops": [
               {
                 "code": "MAA",
-                "terminal": { "name": "4", "gate": "" },
+                "terminal": {
+                  "name": "4",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:50:00+05:30",
                 "layOverTimeInMins": 945
@@ -422,7 +527,9 @@
             ],
             "lowestPrice": "10933.58",
             "departureTime": "2026-01-31T21:00:00+05:30",
-            "airline": ["AI"],
+            "airline": [
+              "AI"
+            ],
             "aircraftType": [],
             "airportCode": "DEL",
             "totalStops": 1
@@ -436,13 +543,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -450,13 +567,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -548,19 +675,28 @@
               "airlineCode": "6E",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T18:00:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BOM",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:25:00+05:30"
               },
               "stops": {
                 "code": "BOM",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:25:00+05:30",
                 "layOverTimeInMins": 220
@@ -576,13 +712,19 @@
               "airlineCode": "6E",
               "departureAirport": {
                 "code": "BOM",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T00:05:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T01:55:00+05:30"
               },
@@ -595,7 +737,10 @@
             "stops": [
               {
                 "code": "BOM",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:25:00+05:30",
                 "layOverTimeInMins": 220
@@ -603,7 +748,9 @@
             ],
             "lowestPrice": "7283.64",
             "departureTime": "2026-01-31T18:00:00+05:30",
-            "airline": ["6E"],
+            "airline": [
+              "6E"
+            ],
             "aircraftType": [],
             "airportCode": "DEL",
             "totalStops": 1
@@ -617,13 +764,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 20, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 20,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -631,13 +788,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 20, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 20,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -717,19 +884,28 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "3", "gate": "" },
+                "terminal": {
+                  "name": "3",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T20:10:00+05:30"
               },
               "arrivalAirport": {
                 "code": "HYD",
-                "terminal": { "name": "", "gate": "" },
+                "terminal": {
+                  "name": "",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T22:20:00+05:30"
               },
               "stops": {
                 "code": "HYD",
-                "terminal": { "name": "", "gate": "" },
+                "terminal": {
+                  "name": "",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T22:20:00+05:30",
                 "layOverTimeInMins": 760
@@ -745,13 +921,19 @@
               "airlineCode": "AI",
               "departureAirport": {
                 "code": "HYD",
-                "terminal": { "name": "", "gate": "" },
+                "terminal": {
+                  "name": "",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T11:00:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "2", "gate": "" },
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-02-01T12:10:00+05:30"
               },
@@ -764,7 +946,10 @@
             "stops": [
               {
                 "code": "HYD",
-                "terminal": { "name": "", "gate": "" },
+                "terminal": {
+                  "name": "",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T22:20:00+05:30",
                 "layOverTimeInMins": 760
@@ -772,7 +957,9 @@
             ],
             "lowestPrice": "13808.06",
             "departureTime": "2026-01-31T20:10:00+05:30",
-            "airline": ["AI"],
+            "airline": [
+              "AI"
+            ],
             "aircraftType": [],
             "airportCode": "DEL",
             "totalStops": 1
@@ -786,13 +973,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -800,13 +997,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -898,19 +1105,28 @@
               "airlineCode": "QP",
               "departureAirport": {
                 "code": "DEL",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T17:30:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BOM",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T19:50:00+05:30"
               },
               "stops": {
                 "code": "BOM",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T19:50:00+05:30",
                 "layOverTimeInMins": 130
@@ -926,13 +1142,19 @@
               "airlineCode": "QP",
               "departureAirport": {
                 "code": "BOM",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T22:00:00+05:30"
               },
               "arrivalAirport": {
                 "code": "BLR",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T23:50:00+05:30"
               },
@@ -945,7 +1167,10 @@
             "stops": [
               {
                 "code": "BOM",
-                "terminal": { "name": "1", "gate": "" },
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
                 "zoneId": "Asia/Kolkata",
                 "time": "2026-01-31T19:50:00+05:30",
                 "layOverTimeInMins": 130
@@ -953,8 +1178,13 @@
             ],
             "lowestPrice": "10520.48",
             "departureTime": "2026-01-31T17:30:00+05:30",
-            "airline": ["QP"],
-            "aircraftType": ["7MA null", "7BH null"],
+            "airline": [
+              "QP"
+            ],
+            "aircraftType": [
+              "7MA null",
+              "7BH null"
+            ],
             "airportCode": "DEL",
             "totalStops": 1
           },
@@ -967,13 +1197,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ],
@@ -981,13 +1221,23 @@
                   {
                     "type": "BAGGAGE_CABIN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 7, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 7,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   },
                   {
                     "type": "BAGGAGE_CHECK_IN",
                     "allowedBaggages": [
-                      { "piece": 1, "quantity": 15, "text": "", "unit": "KG" }
+                      {
+                        "piece": 1,
+                        "quantity": 15,
+                        "text": "",
+                        "unit": "KG"
+                      }
                     ]
                   }
                 ]
@@ -1053,6 +1303,173 @@
                 "brandName": "FLEXI FARE",
                 "brand": "FLEXI FARE"
               }
+            }
+          ]
+        },
+        "DEL-BLR-6E-1201-1769870000": {
+          "flUnqiueId": "DEL-BLR-6E-1201-1769870000",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-BLR-6E-1201-1769870000",
+              "fltNo": "1201",
+              "airlineCode": "6E",
+              "departureAirport": {
+                "code": "DEL",
+                "time": "2026-01-31T06:30:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "time": "2026-01-31T09:20:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 170
+            }
+          ],
+          "otherDetails": {
+            "stops": [],
+            "totalStops": 0,
+            "lowestPrice": "3999.00",
+            "departureTime": "2026-01-31T06:30:00+05:30"
+          },
+          "fares": [
+            {
+              "price": {
+                "pricePerAdult": "3999.00"
+              }
+            }
+          ]
+        },
+        "DEL-LKO-HYD-BLR-IX-2201-1769860000_LKO-HYD-IX-3302-1769867200_HYD-BLR-IX-4403-1769875400": {
+          "flUnqiueId": "DEL-LKO-HYD-BLR-IX-2201-1769860000_LKO-HYD-IX-3302-1769867200_HYD-BLR-IX-4403-1769875400",
+          "flights": [
+            {
+              "sequence": 1,
+              "flightId": "DEL-LKO-IX-2201-1769860000",
+              "fltNo": "2201",
+              "airlineCode": "IX",
+              "departureAirport": {
+                "code": "DEL",
+                "terminal": {
+                  "name": "3",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T05:30:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "LKO",
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T06:45:00+05:30"
+              },
+              "stops": {
+                "code": "LKO",
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T06:45:00+05:30",
+                "layOverTimeInMins": 90
+              },
+              "durationInMin": 75
+            },
+            {
+              "sequence": 2,
+              "flightId": "LKO-HYD-IX-3302-1769867200",
+              "fltNo": "3302",
+              "airlineCode": "IX",
+              "departureAirport": {
+                "code": "LKO",
+                "terminal": {
+                  "name": "2",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T08:15:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "HYD",
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T10:45:00+05:30"
+              },
+              "stops": {
+                "code": "HYD",
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T10:45:00+05:30",
+                "layOverTimeInMins": 120
+              },
+              "durationInMin": 150
+            },
+            {
+              "sequence": 3,
+              "flightId": "HYD-BLR-IX-4403-1769875400",
+              "fltNo": "4403",
+              "airlineCode": "IX",
+              "departureAirport": {
+                "code": "HYD",
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T12:45:00+05:30"
+              },
+              "arrivalAirport": {
+                "code": "BLR",
+                "terminal": {
+                  "name": "1",
+                  "gate": ""
+                },
+                "zoneId": "Asia/Kolkata",
+                "time": "2026-01-31T14:00:00+05:30"
+              },
+              "stops": false,
+              "durationInMin": 75
+            }
+          ],
+          "otherDetails": {
+            "stops": [
+              {
+                "code": "LKO",
+                "layOverTimeInMins": 90
+              },
+              {
+                "code": "HYD",
+                "layOverTimeInMins": 120
+              }
+            ],
+            "lowestPrice": "6499.00",
+            "departureTime": "2026-01-31T05:30:00+05:30",
+            "airline": [
+              "IX"
+            ],
+            "airportCode": "DEL",
+            "totalStops": 2
+          },
+          "fares": [
+            {
+              "fareId": "ECONOMY-2STOP-SAVER",
+              "fareGroup": "REGULAR_FARE",
+              "price": {
+                "CTC": "6499.00",
+                "SUPPLIER": "AIR_INDIA_EXPRESS",
+                "pricePerAdult": "6499.00"
+              },
+              "refundable": false,
+              "checkInBaggageAllowed": true
             }
           ]
         }
@@ -1175,11 +1592,26 @@
         }
       },
       "airlineDetail": {
-        "AI": { "code": "AI", "name": "Air India" },
-        "SG": { "code": "SG", "name": "SpiceJet" },
-        "6E": { "code": "6E", "name": "IndiGo" },
-        "QP": { "code": "QP", "name": "Akasa Air" },
-        "IX": { "code": "IX", "name": "Air India Express" }
+        "AI": {
+          "code": "AI",
+          "name": "Air India"
+        },
+        "SG": {
+          "code": "SG",
+          "name": "SpiceJet"
+        },
+        "6E": {
+          "code": "6E",
+          "name": "IndiGo"
+        },
+        "QP": {
+          "code": "QP",
+          "name": "Akasa Air"
+        },
+        "IX": {
+          "code": "IX",
+          "name": "Air India Express"
+        }
       }
     },
     "provider": "CRT"
