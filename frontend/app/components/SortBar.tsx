@@ -40,7 +40,7 @@ export default function SortBar() {
   return (
     <div className="flex flex-col gap-3 rounded-lg shadow-2xl bg-gray-100/99 p-3 sm:flex-row sm:items-center sm:justify-between">
       <span className="text-sm text-gray-600">
-        Showing {resultsCount} flights
+         {resultsCount} flights
       </span>
 
       <select

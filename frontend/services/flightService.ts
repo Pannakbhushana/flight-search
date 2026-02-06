@@ -55,22 +55,17 @@ export const getFlights = async (): Promise<FlightResult[]> => {
 
       results.push({
         id: option.flUnqiueId,
-
         airlineCode,
         airlineName,
         flightNumber,
-
         fromCode,
         toCode,
         fromCity,
         toCity,
-
         departureTime: firstFlight.departureAirport.time,
         arrivalTime: lastFlight.arrivalAirport.time,
-
         duration: totalDuration,
         stops: option.otherDetails?.totalStops ?? 0,
-
         price: Number(
           option.fares?.[0]?.price?.pricePerAdult ?? 0
         ),

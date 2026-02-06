@@ -4,8 +4,6 @@ import { formatDuration } from "@/utils/formatDuration";
 export default function FlightCard({ flight }: any) {
   return (
     <div className="mb-4 rounded-xl border border-white/30 bg-white/95 p-5 shadow-sm transition hover:shadow-lg">
-
-      {/* ========== MOBILE HEADER ========== */}
       <div className="flex items-start justify-between gap-4 md:hidden">
         <div className="flex items-center gap-3">
           <img
@@ -28,10 +26,7 @@ export default function FlightCard({ flight }: any) {
         </p>
       </div>
 
-      {/* ========== DESKTOP STRUCTURE ========== */}
       <div className="mt-5 grid gap-6 lg:grid-cols-[220px_1fr_200px] lg:items-center">
-
-        {/* LEFT — Airline Info */}
         <div className="hidden lg:flex lg:items-center lg:gap-4">
           <img
             src="/flight-logo.png"
@@ -48,10 +43,7 @@ export default function FlightCard({ flight }: any) {
           </div>
         </div>
 
-        {/* CENTER — Flight Timeline */}
         <div className="grid grid-cols-3 items-center text-center">
-          
-          {/* Departure */}
           <div>
             <p className="text-xs font-semibold uppercase text-gray-600">
               Departure
@@ -63,8 +55,6 @@ export default function FlightCard({ flight }: any) {
               {flight.fromCity}
             </p>
           </div>
-
-          {/* Duration + Line */}
           <div className="flex flex-col items-center">
             <p className="text-xs font-medium text-gray-500">
               {formatDuration(flight.duration)}
@@ -84,8 +74,6 @@ export default function FlightCard({ flight }: any) {
                 : `${flight.stops} Stops`}
             </p>
           </div>
-
-          {/* Arrival */}
           <div>
             <p className="text-xs font-semibold uppercase text-gray-600">
               Arrival
@@ -98,8 +86,6 @@ export default function FlightCard({ flight }: any) {
             </p>
           </div>
         </div>
-
-        {/* RIGHT — Price + CTA */}
         <div className="mt-4 flex items-center justify-between lg:mt-0 lg:flex-col lg:items-end lg:border-l lg:border-gray-200 lg:pl-6">
           <div className="text-right">
             <p className="text-xs uppercase text-gray-500">
